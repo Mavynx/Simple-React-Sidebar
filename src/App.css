@@ -73,9 +73,7 @@ label {
 }
 
 .signup-form {
-  background-color: rgb(14, 139, 177);
-  background: transparent;
-  backdrop-filter: blur(10px) brightness(80%);
+  background-color: rgb(14, 139, 177);%);
   width: 450px;
   padding: 40px 40px;
   border-radius: 5%;
@@ -116,8 +114,6 @@ label {
 
 .login-form {
   background-color: rgb(14, 139, 177);
-  background: transparent;
-  backdrop-filter: blur(10px) brightness(80%);
   width: 450px;
   padding: 40px 40px;
   border-radius: 5%;
