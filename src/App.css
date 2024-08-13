@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.home, .contact, .about, .signup {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+/* ------------------------Contact Page Starts Here--------------------------------------------------*/
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./pages/cow1.jpg);
+  background-position: fixed;
+  background-size:cover ;
+}
+
+.form1 {
+  display: flex ;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+ 
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  width: 500px;
+  
+
+}
+
+textarea {
+  height: 100px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+#btn1 {
+  padding: 10px 20px;
+  width: 200px;
+  align-items: center;
+  justify-self: center;
+  
+}
+/* ------------------------Contact Page Ends Here--------------------------------------------------*/
+
+
+
+
+/* ------------------------Signup Page Starts Here--------------------------------------------------*/
+.signup {
+  background-image: url(./pages/ranch.jpg);
+  background-position: fixed;
+  background-size: cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form {
+  background-color: rgb(14, 139, 177);
+  background: transparent;
+  backdrop-filter: blur(10px) brightness(80%);
+  width: 450px;
+  padding: 40px 40px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#signupbtn {
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.link1{
+  text-decoration: none;
+  margin: 10px ;
+}
+
+.p-signup {
+  color: white;
+}
+
+/* ------------------------Signup Page Ends Here--------------------------------------------------*/
+
+
+/* ------------------------Login Page Starts Here--------------------------------------------------*/
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./pages/house.jpg);
+  background-position: fixed;
+  background-size: cover;
+}
+
+.login-form {
+  background-color: rgb(14, 139, 177);
+  background: transparent;
+  backdrop-filter: blur(10px) brightness(80%);
+  width: 450px;
+  padding: 40px 40px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#loginbtn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-login {
+  color: white;
+
+}
+
+.link2 {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.login-label {
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+/* ------------------------Login Page Ends Here--------------------------------------------------*/
+

@@ -1,0 +1,124 @@
+.navbar1 {
+    background-color: rgb(44, 70, 61);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left:2 rem;
+    font-size: 2 rem;
+    background: none;
+}
+
+.title {
+    margin: 50px;
+    display: inline-block;
+    width: 200px;
+}
+
+
+.head1 {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.cow-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav-menu {
+    background-color: rgb(24, 109, 79);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+
+}
+
+.bars {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.close {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.nav-text a:hover {
+background-color: rgb(5, 56, 49);
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: rgb(24, 109, 79);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+span {
+    margin-left: 16px;
+}
+
+.dropdown-list {
+    display: inline-block;
+    flex-direction: column;
+    background-color: rgba(24, 109, 79, 0.9);
+    width: 220px;
+
+}
+
+.cat {
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right:20px;
+    color: aliceblue;
+    font-size: 16px;
+}
